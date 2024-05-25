@@ -37,11 +37,10 @@ A Rust project for a simple password manager.
 ### [Sky Blue](Sky-Blue/)
 A web project that implements a simple frontend for the openweathermap api.
 
-
-### [CBSE-WEBSITE-CRAWLER] (CBSE-WEBSITE-CRAWLER/)
+### [CBSE WEBSITE CRAWLER](CBSE-WEBSITE-CRAWLER/)
 A cbse website crawler, that crawls school names and information.
 
-### [Alpha-V1] (Alpha-v1/)
+### [Alpha V1](Alpha-v1/)
 A very simple chatbot
 
 

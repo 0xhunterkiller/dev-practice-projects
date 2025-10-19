@@ -1,0 +1,6 @@
+Hi Ajay,
+
+I am writing to inform you that I won't be able to attend today's meeting because I am not feeling well. Your task for today will be to fix the bug in orders-service version 8.0.1, and to create the presentation for the next quarterly meet.
+
+Regards,
+Saai Sudarsanan

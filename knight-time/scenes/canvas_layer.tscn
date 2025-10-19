@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0gb7p08btgg8"]
+
+[ext_resource type="FontFile" uid="uid://hpt2rkjxcwd5" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1_c4rma"]
+[ext_resource type="Script" uid="uid://dx20i2xtolscc" path="res://scripts/canvas_layer.gd" id="1_ghj5q"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_ghj5q")
+
+[node name="DeathLabel" type="Label" parent="." groups=["ui_on_restart_hide"]]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_c4rma")
+theme_override_font_sizes/font_size = 100
+text = "You Died!"
+
+[node name="WinLabel" type="Label" parent="." groups=["ui_on_restart_hide"]]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_c4rma")
+theme_override_font_sizes/font_size = 100
+text = "You Win!"

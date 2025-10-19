@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxunhskanf17t"]
+
+[ext_resource type="Script" uid="uid://clpbyii6133u3" path="res://scripts/audio_manager.gd" id="1_3asnw"]
+[ext_resource type="AudioStream" uid="uid://duji5u87rjrxg" path="res://assets/sounds/coin.wav" id="2_m6ggh"]
+[ext_resource type="AudioStream" uid="uid://htpqfhnmwmr7" path="res://assets/sounds/hurt.wav" id="3_3asnw"]
+
+[node name="AudioManager" type="Node2D"]
+script = ExtResource("1_3asnw")
+
+[node name="CoinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_m6ggh")
+bus = &"SFX"
+
+[node name="DeathSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_3asnw")
+bus = &"SFX"

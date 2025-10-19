@@ -1,0 +1,18 @@
+[project]
+name = "learning-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.27",
+    "langchain-google-genai>=2.1.8",
+    "langchain-ollama>=0.3.6",
+    "langgraph>=0.6.2",
+    "nest-asyncio>=1.6.0",
+    "notebook>=7.4.4",
+    "pyppeteer>=2.0.0",
+    "python-dotenv>=1.1.1",
+    "unstructured[md]>=0.18.11",
+]
